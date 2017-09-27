@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        html,body{
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        .ct{
+            background-image: url(img/bg.jpg);
+            background-size: cover;
+            height: 100%;
+            position: relative;
+        }
+        .box-left{
+            width: 50%;
+            display: inline-block;
+            position: absolute;
+            height: 100%;
+            background: linear-gradient(to right bottom, rgba(256,257,65,0.5) ,rgba(200,198,135,0.5) ,rgba(138,147,35,0.5));
+        }
+        .box-right{
+            width: 50%;
+            height: 100%;
+            left: 50%;
+            display: inline-block;
+            position: absolute;
+            background: linear-gradient(to left bottom, rgba(30,257,65,0.5) ,rgba(125,198,135,0.5) ,rgba(256,147,35,0.5));
+        }
+    </style>
+</head>
+<body>
+<div class="ct">
+    <div class="box-left"></div>
+    <div class="box-right"></div>
+</div>
+</body>
+</html>
